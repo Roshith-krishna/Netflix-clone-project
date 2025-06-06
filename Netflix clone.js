@@ -7,13 +7,11 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// Profile section redirecting
 const profileIcon = document.querySelector(".profile-icon");
 profileIcon.addEventListener("click", () => {
   window.location.href = "netflix clone profile.html";
 });
 
-// Movie card
 const movieCard = document.querySelectorAll(".content-card");
 movieCard.forEach((card) => {
   card.addEventListener("mouseEnter", () => {
