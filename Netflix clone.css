@@ -174,7 +174,6 @@ body{
   padding: 0 4%;
 }
 
-/* Section Style */
 .content-section {
   margin-bottom: 50px;
 }
@@ -187,7 +186,6 @@ body{
   letter-spacing: 0.5px;
 }
 
-/* Content row */
 .content-row {
   display: flex;
   gap: 15px;
@@ -206,7 +204,6 @@ body{
   border-radius: 5px;
 }
 
-/* Content card */
 .content-card {
   position: relative;
   min-width: 250px;
@@ -236,7 +233,6 @@ body{
   filter: brightness(0.4);
 }
 
-/* Netflix Badge */
 .netflix-badge {
   position: relative;
   top: 8px;
@@ -254,7 +250,6 @@ body{
   z-index: 2;
 }
 
-/* Card-overlay */
 .card-overlay {
   position: absolute;
   top: 0;
@@ -348,7 +343,7 @@ body{
   font-weight: bold;
 }
 
-/* Button Icons */
+
 .play-btn::before {
   content: "▶";
 }
@@ -377,7 +372,6 @@ body{
   z-index: 1;
 }
 
-/* Responsiveness */
 @media (max-width: 120px) {
   .container {
     padding: 0 3%;
